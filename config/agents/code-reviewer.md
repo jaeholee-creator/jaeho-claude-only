@@ -1,6 +1,6 @@
 ---
 name: code-reviewer
-description: 코드 리뷰 전문가. PR이나 코드 변경사항을 시니어 개발자 관점에서 리뷰. MUST BE USED when reviewing code or pull requests.
+description: 코드 리뷰 전문가. 시니어 개발자 관점의 코드 리뷰, PR 검토, 베스트 프랙티스 제안. MUST BE USED when user requests code review, PR review, or code quality assessment.
 tools: Read, Grep, Glob, Bash
 model: sonnet
 ---

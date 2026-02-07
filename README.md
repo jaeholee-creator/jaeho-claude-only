@@ -1,17 +1,26 @@
 # jaeho-claude-only
 
-Jaeho의 Claude Code 통합 환경 - 에이전트, 스킬, MCP 서버를 한 번에 설치
+Jaeho의 Claude Code 고도화 환경 - 자동 오케스트레이션 & 자율 실행 모드
 
 ## 🎯 개요
 
-OpenCode에서 Claude Code로 마이그레이션한 통합 환경입니다. 다른 PC에서도 원클릭으로 동일한 환경을 구축할 수 있습니다.
+OpenCode에서 Claude Code로 마이그레이션한 통합 환경입니다. **하나의 에이전트만 호출하면 알아서 필요한 에이전트/스킬을 자동으로 판단하고 사용**하는 지능형 시스템입니다.
+
+## ✨ 주요 특징
+
+- 🤖 **자동 오케스트레이션**: @coordinator가 작업 복잡도/비용을 분석하여 최적 전략 선택
+- ⚡ **자율 실행 모드**: 승인 요청 없이 작업 완료까지 자동 진행
+- 💰 **비용 최적화**: 단순 작업 직접 처리, 검색은 Haiku, 전략만 Opus
+- 🎯 **지능적 라우팅**: 키워드 기반 자동 에이전트 위임
+- 🔄 **자동 재시도**: 에러 발생 시 자동 수정 및 재시도 (최대 3회)
 
 ## 📦 포함 내용
 
-### 커스텀 에이전트 (7개)
+### 커스텀 에이전트 (8개)
 
 | 에이전트 | 모델 | 용도 |
 |---------|------|------|
+| **coordinator** | Sonnet | 🆕 **범용 진입점** - 모든 요청의 자동 라우팅 |
 | **oracle** | Opus | 아키텍처 상담 & 디버깅 |
 | **prometheus** | Opus | 전략적 계획 수립 |
 | **momus** | Sonnet | 계획/코드 품질 리뷰 |
@@ -27,6 +36,15 @@ OpenCode에서 Claude Code로 마이그레이션한 통합 환경입니다. 다�
 - `/sequence-diagram` - 시퀀스/플로우
 - `/class-diagram` - UML 클래스
 - `/er-diagram` - DB 스키마
+
+### 워크플로우 스킬 (6개) 🆕
+
+- `/tdd-cycle` - TDD 사이클 (Red → Green → Refactor)
+- `/brainstorm-session` - 체계적 아이디어 발산
+- `/write-plan` - 구조화된 계획 문서 작성
+- `/systematic-debug` - 단계별 디버깅 프로세스
+- `/code-review-checklist` - 체크리스트 기반 리뷰
+- `/refactor-guide` - 안전한 리팩토링 가이드
 
 ### MCP 서버 (6개)
 
@@ -84,7 +102,35 @@ NOTION_TOKEN=ntn_YOUR_TOKEN_HERE
 
 ## 📖 사용 가이드
 
-### 에이전트 호출
+### 🆕 자동 오케스트레이션 (권장)
+
+**모든 요청에 `@coordinator`를 사용하세요!**
+
+```bash
+# 단순 작업 - 직접 처리
+@coordinator 이 함수에 에러 처리 추가해줘
+→ Sonnet으로 즉시 처리 (빠르고 저렴)
+
+# 문서 검색 - Haiku 위임
+@coordinator React Query 사용법 알려줘
+→ @librarian 위임 (80% 비용 절감)
+
+# 아키텍처 - Opus 위임
+@coordinator 이 시스템 아키텍처 분석해줘
+→ @oracle 위임 (전문성 필요)
+
+# 복잡한 작업 - 다중 에이전트
+@coordinator 사용자 인증 시스템을 설계하고 구현해줘
+→ 자동 오케스트레이션:
+  1. @prometheus (계획)
+  2. @oracle (설계)
+  3. 직접 구현
+  4. @code-reviewer (리뷰)
+```
+
+### 에이전트 직접 호출 (고급)
+
+특정 에이전트를 직접 호출할 수도 있습니다:
 
 ```bash
 # 아키텍처 분석
@@ -103,6 +149,8 @@ NOTION_TOKEN=ntn_YOUR_TOKEN_HERE
 @prometheus 사용자 인증 구현 계획을 세워줘
 ```
 
+**하지만 대부분의 경우 @coordinator 사용을 권장합니다.**
+
 ### 다이어그램 생성
 
 ```bash
@@ -114,6 +162,28 @@ NOTION_TOKEN=ntn_YOUR_TOKEN_HERE
 
 # ER 다이어그램
 /er-diagram
+```
+
+### 🆕 워크플로우 스킬
+
+```bash
+# TDD 사이클로 기능 구현
+/tdd-cycle "사용자 로그인"
+
+# 브레인스토밍 세션
+/brainstorm-session "API 성능 개선 방안"
+
+# 구조화된 계획 문서 작성
+/write-plan "사용자 인증 JWT 전환"
+
+# 체계적 디버깅
+/systematic-debug "메모리 누수 문제"
+
+# 체크리스트 기반 코드 리뷰
+/code-review-checklist "src/auth/"
+
+# 안전한 리팩토링
+/refactor-guide "UserService 클래스"
 ```
 
 ### Notion 작업 관리
@@ -141,10 +211,11 @@ jaeho-claude-only/
 ├── .env.example                   # 환경변수 템플릿
 ├── .gitignore                     # Git 제외 파일
 ├── config/
-│   ├── CLAUDE.md                  # 전역 설정
-│   ├── settings.json              # Claude Code 설정
+│   ├── CLAUDE.md                  # 전역 설정 (오케스트레이션 가이드 포함)
+│   ├── settings.json              # Claude Code 설정 (자동 승인 모드)
 │   ├── mcp.json                   # MCP 서버 정의
-│   ├── agents/                    # 커스텀 에이전트 7개
+│   ├── agents/                    # 커스텀 에이전트 8개
+│   │   ├── coordinator.md         # 🆕 범용 진입점
 │   │   ├── oracle.md
 │   │   ├── prometheus.md
 │   │   ├── momus.md
@@ -152,12 +223,19 @@ jaeho-claude-only/
 │   │   ├── multimodal-looker.md
 │   │   ├── code-reviewer.md
 │   │   └── debugger.md
-│   └── skills/                    # 커스텀 스킬 5개
+│   └── skills/                    # 커스텀 스킬 12개
 │       ├── mermaid-render/SKILL.md
 │       ├── arch-diagram/SKILL.md
 │       ├── sequence-diagram/SKILL.md
 │       ├── class-diagram/SKILL.md
-│       └── er-diagram/SKILL.md
+│       ├── er-diagram/SKILL.md
+│       ├── tdd-cycle/SKILL.md                  # 🆕
+│       ├── brainstorm-session/SKILL.md         # 🆕
+│       ├── write-plan/SKILL.md                 # 🆕
+│       ├── systematic-debug/SKILL.md           # 🆕
+│       ├── code-review-checklist/SKILL.md      # 🆕
+│       ├── refactor-guide/SKILL.md             # 🆕
+│       └── delegation-guide/SKILL.md           # 🆕 (내부용)
 └── mcp-servers/
     └── notion-epic-tracker/       # Python MCP 서버
         ├── server.py
@@ -230,7 +308,30 @@ git pull
 
 MIT License
 
+## 🌟 주요 개선사항 (v2.0)
+
+### 자동 오케스트레이션
+- **Coordinator 메타 에이전트**: 모든 요청의 범용 진입점
+- **지능적 라우팅**: 복잡도/비용/컨텍스트 효율성 분석
+- **자동 위임**: 키워드 기반 에이전트 자동 선택
+- **비용 최적화**: 단순 작업 직접 처리, 검색은 Haiku, 전략만 Opus
+
+### 자율 실행 모드
+- **승인 요청 없음**: 파일 생성/수정/명령어 실행 자동 진행
+- **자동 재시도**: 실패 시 자동 수정 및 재시도 (최대 3회)
+- **에러 자동 복구**: 에러 원인 분석 후 수정
+- **중단 없는 작업**: 작업 완료까지 자동 진행
+
+### 워크플로우 스킬 (6개 신규)
+- TDD 사이클, 브레인스토밍, 계획 작성, 체계적 디버깅, 코드 리뷰, 리팩토링
+
+### 컨텍스트 최적화
+- Tool Search 활성화 (46.9% 토큰 감소)
+- MCP 제한 준수 (6/10 사용)
+- 한국어 응답 지원
+
 ---
 
 **만든 사람**: Jaeho Lee
-**최종 업데이트**: 2026-02-07
+**최종 업데이트**: 2026-02-08
+**버전**: 2.0.0 (자동 오케스트레이션 & 자율 실행)

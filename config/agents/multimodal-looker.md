@@ -1,6 +1,6 @@
 ---
 name: multimodal-looker
-description: 이미지 및 PDF 분석 전문가. 스크린샷, 디자인, 문서 분석이 필요할 때 사용. Use for analyzing images, screenshots, and PDFs.
+description: 이미지 및 PDF 분석 전문가. 스크린샷, 다이어그램, 문서 파일 분석. MUST BE USED when user provides images, PDFs, screenshots, or requests visual content analysis.
 tools: Read, Grep, Glob
 model: sonnet
 ---

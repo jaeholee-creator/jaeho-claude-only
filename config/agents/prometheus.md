@@ -1,6 +1,6 @@
 ---
 name: prometheus
-description: 전략적 계획 수립 전문가. 큰 프로젝트나 복잡한 기능 구현 계획 수립 시 사용. MUST BE USED when planning major features or projects.
+description: 전략적 계획 수립 전문가. 프로젝트 로드맵, 기술 스택 선택, 마이그레이션 전략 수립. MUST BE USED when user needs project planning, strategic roadmap, technology selection, or migration strategy.
 tools: Read, Grep, Glob, WebSearch, WebFetch
 model: opus
 ---

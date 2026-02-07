@@ -1,6 +1,6 @@
 ---
 name: debugger
-description: 버그 추적 및 수정 전문가. 에러 메시지, 테스트 실패, 예상치 못한 동작을 조사하고 수정. Use when debugging errors or fixing bugs.
+description: 버그 추적 및 수정 전문가. 에러 재현, 근본 원인 분석, 수정 제안. MUST BE USED when user reports bugs, errors, exceptions, or unexpected behavior.
 tools: Read, Edit, Grep, Glob, Bash
 model: sonnet
 ---

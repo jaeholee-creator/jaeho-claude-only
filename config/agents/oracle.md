@@ -1,6 +1,6 @@
 ---
 name: oracle
-description: 아키텍처 상담 및 디버깅 전문가. 시스템 설계 질문이나 복잡한 버그 분석 시 사용. MUST BE USED when architecture decisions or deep debugging is needed.
+description: 아키텍처 상담 및 디버깅 전문가. 시스템 설계 질문이나 복잡한 버그 분석 시 사용. MUST BE USED when user asks about system architecture, design patterns, complex debugging, performance bottlenecks, or technical trade-offs.
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: opus
 ---
