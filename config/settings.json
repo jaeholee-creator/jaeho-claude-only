@@ -1,0 +1,22 @@
+{
+  "enabledMcpjsonServers": [
+    "github",
+    "playwright",
+    "filesystem",
+    "sequential-thinking",
+    "memory",
+    "notion-epic-tracker"
+  ],
+  "model": "sonnet",
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(python:*)",
+      "Bash(git:*)",
+      "Read",
+      "Grep",
+      "Glob"
+    ]
+  }
+}
