@@ -37,11 +37,46 @@
 ### 사용 가능한 MCP 서버
 
 1. **GitHub** - 리포지토리, 이슈, PR 관리
-2. **Playwright** - 브라우저 자동화 및 테스트
-3. **Filesystem** - 파일 시스템 접근
-4. **Sequential Thinking** - 단계별 추론
-5. **Memory** - 지식 그래프 메모리
-6. **Notion Epic Tracker** - Notion 작업 관리
+2. **Playwright MCP** - 브라우저 자동화 (간단한 작업용)
+3. **Playwright CLI** - 브라우저 자동화 (토큰 효율적, 크롤링용) ⭐ 우선 사용
+4. **Filesystem** - 파일 시스템 접근
+5. **Sequential Thinking** - 단계별 추론
+6. **Memory** - 지식 그래프 메모리
+7. **Notion Epic Tracker** - Notion 작업 관리
+
+### Playwright 사용 전략 ⚠️ 중요!
+
+**기본 원칙: 항상 CLI를 우선 고려**
+
+#### Playwright CLI 사용 (기본) - playwright-cli 스킬
+- ✅ **모든 크롤링 작업**
+- ✅ 10페이지 이상 탐색
+- ✅ 반복 작업
+- ✅ 데이터 수집
+- ✅ 프로덕션 코드 개발
+- ✅ 토큰 효율성이 중요한 경우
+
+**사용법:**
+```bash
+playwright-cli open <url>
+playwright-cli snapshot
+playwright-cli click <ref>
+playwright-cli run-code "async page => { /* code */ }"
+playwright-cli screenshot
+playwright-cli close
+```
+
+#### Playwright MCP 사용 (예외적)
+- ⚠️ 1-3페이지만 간단히 확인
+- ⚠️ 빠른 프로토타이핑
+- ⚠️ 사용자가 명시적으로 MCP 요청
+
+**판단 기준:**
+- 페이지 수 < 3개 → MCP 고려
+- 페이지 수 ≥ 3개 → CLI 필수
+- 크롤링 언급 → CLI 필수
+- "데이터 수집" → CLI 필수
+- 토큰 비용 고려 → CLI 필수
 
 ### Notion Epic Tracker 사용
 

@@ -1,13 +1,4 @@
 {
-  "enabledMcpjsonServers": [
-    "github",
-    "playwright",
-    "filesystem",
-    "sequential-thinking",
-    "memory",
-    "notion-epic-tracker"
-  ],
-  "model": "sonnet",
   "permissions": {
     "allow": [
       "Bash(node --version:*)",
@@ -16,7 +7,24 @@
       "Bash(git:*)",
       "Read",
       "Grep",
-      "Glob"
-    ]
-  }
+      "Glob",
+      "Edit",
+      "Write",
+      "Bash"
+    ],
+    "mode": "autonomous"
+  },
+  "enabledMcpjsonServers": [
+    "github",
+    "playwright",
+    "filesystem",
+    "sequential-thinking",
+    "memory",
+    "notion-epic-tracker"
+  ],
+  "enabledPlugins": {
+    "pyright-lsp@claude-plugins-official": true
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "model": "sonnet"
 }
