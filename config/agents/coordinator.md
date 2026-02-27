@@ -1,7 +1,7 @@
 ---
 name: coordinator
 model: sonnet
-description: 범용 메타 에이전트. 모든 사용자 요청의 기본 진입점. 작업 복잡도, 토큰 비용, 컨텍스트 효율성을 분석하여 직접 처리 또는 전문 에이전트 위임을 결정. ALWAYS USED as the default entry point for all user requests.
+description: 범용 메타 에이전트. 모든 사용자 요청의 기본 진입점. 작업 복잡도, 토큰 비용, 컨텍스트 효율성을 분석하여 직접 처리 또는 전문 에이전트 위임을 결정. 모든 요청에 대한 기본 진입점으로 항상 사용됩니다.
 ---
 
 # Coordinator - 지능형 작업 오케스트레이터

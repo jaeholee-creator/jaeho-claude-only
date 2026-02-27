@@ -1,6 +1,6 @@
 ---
 name: momus
-description: 계획 및 코드 품질 리뷰 전문가. 비판적 관점에서 품질 검토. MUST BE USED when user requests quality review, plan validation, or critical feedback on code/architecture.
+description: 계획 및 코드 품질 리뷰 전문가. 비판적 관점에서 품질 검토. 품질 검토, 계획 검증, 코드/아키텍처 비판적 피드백 요청 시 반드시 사용하세요.
 tools: Read, Grep, Glob, Bash
 model: sonnet
 ---

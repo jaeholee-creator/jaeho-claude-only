@@ -1,6 +1,6 @@
 ---
 name: librarian
-description: 문서 검색 및 레퍼런스 전문가. API 문서, 라이브러리 사용법, 코드 예제 검색. MUST BE USED when user asks about documentation, API usage, library references, or how-to guides.
+description: 문서 검색 및 레퍼런스 전문가. API 문서, 라이브러리 사용법, 코드 예제 검색. 문서, API 사용법, 라이브러리 레퍼런스, 사용 가이드 질문 시 반드시 사용하세요.
 tools: Read, Grep, Glob, WebSearch, WebFetch
 model: haiku
 ---

@@ -1,0 +1,569 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip navigation" [ref=e7] [cursor=pointer]:
+        - /url: /API/docs/en-us/guides/amazon-attribution/how-to#pageContent
+      - link "Amazon Ads logo" [ref=e8] [cursor=pointer]:
+        - /url: /API/docs
+        - img "Amazon Ads logo" [ref=e9]
+    - generic [ref=e10]: Advanced tools center
+    - button "Your account" [ref=e14]
+    - generic [ref=e19]:
+      - generic [ref=e20]: Search
+      - generic [ref=e22]:
+        - img [ref=e24]: 
+        - searchbox "Search" [ref=e26]
+  - text: 
+  - generic [ref=e27]:
+    - navigation [ref=e30]:
+      - list [ref=e31]:
+        - button "Home" [ref=e32] [cursor=pointer]
+        - button "Developer guides" [ref=e33] [cursor=pointer]
+        - button "API reference" [ref=e34] [cursor=pointer]
+        - button "No-code tools" [ref=e35] [cursor=pointer]
+    - text: 
+    - generic [ref=e36]:
+      - navigation [ref=e39]:
+        - list [ref=e40]:
+          - button "Betas" [ref=e41] [cursor=pointer]
+          - button "My Apps" [ref=e43] [cursor=pointer]
+          - dialog [ref=e44]:
+            - generic [ref=e48]:
+              - generic [ref=e50]:
+                - heading "See your apps’ integration data" [level=4] [ref=e51]
+                - paragraph [ref=e52]:
+                  - text: Check out new dashboards that help you understand and optimize API call patterns in the
+                  - link "My Apps tab" [ref=e53] [cursor=pointer]:
+                    - /url: /developer/overview
+                  - text: .
+              - button "Dismiss Alert" [ref=e54]:
+                - img [ref=e56]: 
+          - button "Support" [ref=e58] [cursor=pointer]
+          - button "Release notes" [ref=e59] [cursor=pointer]
+      - generic [ref=e63] [cursor=pointer]:
+        - button "Github" [ref=e64]
+        - img [ref=e66]: 
+  - list [ref=e69]:
+    - listitem [ref=e70]:
+      - link "Overview" [ref=e71] [cursor=pointer]:
+        - /url: /API/docs/en-us/guides/overview
+    - listitem [ref=e72]:
+      - button "show or hide links under Onboarding" [ref=e73] [cursor=pointer]:
+        - img [ref=e75]: 
+        - generic [ref=e77]: Onboarding
+    - listitem [ref=e78]:
+      - button "show or hide links under Get started" [ref=e79] [cursor=pointer]:
+        - img [ref=e81]: 
+        - generic [ref=e83]: Get started
+    - listitem [ref=e84]:
+      - button "show or hide links under Account management" [ref=e85] [cursor=pointer]:
+        - img [ref=e87]: 
+        - generic [ref=e89]: Account management
+    - listitem [ref=e90]:
+      - button "show or hide links under Reporting" [ref=e91] [cursor=pointer]:
+        - img [ref=e93]: 
+        - generic [ref=e95]: Reporting
+    - listitem [ref=e96]:
+      - button "show or hide links under Campaign management" [ref=e97] [cursor=pointer]:
+        - img [ref=e99]: 
+        - generic [ref=e101]: Campaign management
+    - listitem [ref=e102]:
+      - button "show or hide links under Conversions" [ref=e103] [cursor=pointer]:
+        - img [ref=e105]: 
+        - generic [ref=e107]: Conversions
+    - listitem [ref=e108]:
+      - button "show or hide links under Exports" [ref=e109] [cursor=pointer]:
+        - img [ref=e111]: 
+        - generic [ref=e113]: Exports
+    - listitem [ref=e114]:
+      - button "show or hide links under Sponsored Products" [ref=e115] [cursor=pointer]:
+        - img [ref=e117]: 
+        - generic [ref=e119]: Sponsored Products
+    - listitem [ref=e120]:
+      - button "show or hide links under Sponsored Brands" [ref=e121] [cursor=pointer]:
+        - img [ref=e123]: 
+        - generic [ref=e125]: Sponsored Brands
+    - listitem [ref=e126]:
+      - button "show or hide links under Sponsored Display" [ref=e127] [cursor=pointer]:
+        - img [ref=e129]: 
+        - generic [ref=e131]: Sponsored Display
+    - listitem [ref=e132]:
+      - button "show or hide links under Sponsored TV" [ref=e133] [cursor=pointer]:
+        - img [ref=e135]: 
+        - generic [ref=e137]: Sponsored TV
+    - listitem [ref=e138]:
+      - button "show or hide links under Amazon DSP" [ref=e139] [cursor=pointer]:
+        - img [ref=e141]: 
+        - generic [ref=e143]: Amazon DSP
+    - listitem [ref=e144]:
+      - button "show or hide links under Amazon Marketing Cloud" [ref=e145] [cursor=pointer]:
+        - img [ref=e147]: 
+        - generic [ref=e149]: Amazon Marketing Cloud
+    - listitem [ref=e150]:
+      - button "show or hide links under Amazon Marketing Stream" [ref=e151] [cursor=pointer]:
+        - img [ref=e153]: 
+        - generic [ref=e155]: Amazon Marketing Stream
+    - listitem [ref=e156]:
+      - button "show or hide links under Ads data manager" [ref=e157] [cursor=pointer]:
+        - img [ref=e159]: 
+        - generic [ref=e161]: Ads data manager
+    - listitem [ref=e162]:
+      - button "show or hide links under Retail Ad Service" [ref=e163] [cursor=pointer]:
+        - img [ref=e165]: 
+        - generic [ref=e167]: Retail Ad Service
+    - listitem [ref=e168]:
+      - button "show or hide links under Traffic events" [ref=e169] [cursor=pointer]:
+        - img [ref=e171]: 
+        - generic [ref=e173]: Traffic events
+    - listitem [ref=e174]:
+      - button "show or hide links under Posts" [ref=e175] [cursor=pointer]:
+        - img [ref=e177]: 
+        - generic [ref=e179]: Posts
+    - listitem [ref=e180]:
+      - button "show or hide links under Assets" [ref=e181] [cursor=pointer]:
+        - img [ref=e183]: 
+        - generic [ref=e185]: Assets
+    - listitem [ref=e186]:
+      - button "show or hide links under Moderation" [ref=e187] [cursor=pointer]:
+        - img [ref=e189]: 
+        - generic [ref=e191]: Moderation
+    - listitem [ref=e192]:
+      - button "show or hide links under Portfolios" [ref=e193] [cursor=pointer]:
+        - img [ref=e195]: 
+        - generic [ref=e197]: Portfolios
+    - listitem [ref=e198]:
+      - button "show or hide links under Brand Store" [ref=e199] [cursor=pointer]:
+        - img [ref=e201]: 
+        - generic [ref=e203]: Brand Store
+    - listitem [ref=e204]:
+      - button "show or hide links under Rules" [ref=e205] [cursor=pointer]:
+        - img [ref=e207]: 
+        - generic [ref=e209]: Rules
+    - listitem [ref=e210]:
+      - button "show or hide links under Budget usage" [ref=e211] [cursor=pointer]:
+        - img [ref=e213]: 
+        - generic [ref=e215]: Budget usage
+    - listitem [ref=e216]:
+      - button "show or hide links under Recommendations & insights" [ref=e217] [cursor=pointer]:
+        - img [ref=e219]: 
+        - generic [ref=e221]: Recommendations & insights
+    - listitem [ref=e222]:
+      - button "show or hide links under Amazon Attribution (beta)" [expanded] [ref=e223] [cursor=pointer]:
+        - img [ref=e225]: 
+        - generic [ref=e227]: Amazon Attribution (beta)
+      - list [ref=e228]:
+        - listitem [ref=e229]:
+          - link "Overview" [ref=e230] [cursor=pointer]:
+            - /url: /API/docs/en-us/guides/amazon-attribution/overview
+        - listitem [ref=e231]:
+          - link "Get started" [ref=e232] [cursor=pointer]:
+            - /url: /API/docs/en-us/guides/amazon-attribution/get-started
+        - listitem [ref=e233]:
+          - link "Using Amazon Attribution" [ref=e234] [cursor=pointer]:
+            - /url: /API/docs/en-us/guides/amazon-attribution/how-to
+        - listitem [ref=e235]:
+          - link "Troubleshooting" [ref=e236] [cursor=pointer]:
+            - /url: /API/docs/en-us/guides/amazon-attribution/troubleshooting
+    - listitem [ref=e237]:
+      - button "show or hide links under Billing & invoices" [ref=e238] [cursor=pointer]:
+        - img [ref=e240]: 
+        - generic [ref=e242]: Billing & invoices
+    - listitem [ref=e243]:
+      - button "show or hide links under Ad library" [ref=e244] [cursor=pointer]:
+        - img [ref=e246]: 
+        - generic [ref=e248]: Ad library
+    - listitem [ref=e249]:
+      - button "show or hide links under Media Planning" [ref=e250] [cursor=pointer]:
+        - img [ref=e252]: 
+        - generic [ref=e254]: Media Planning
+    - listitem [ref=e255]:
+      - button "show or hide links under 3PAS" [ref=e256] [cursor=pointer]:
+        - img [ref=e258]: 
+        - generic [ref=e260]: 3PAS
+    - listitem [ref=e261]:
+      - button "show or hide links under Usage examples (blogs)" [ref=e262] [cursor=pointer]:
+        - img [ref=e264]: 
+        - generic [ref=e266]: Usage examples (blogs)
+    - listitem [ref=e267]:
+      - link "Postman" [ref=e268] [cursor=pointer]:
+        - /url: /API/docs/en-us/guides/postman
+    - listitem [ref=e269]:
+      - link "Translations" [ref=e270] [cursor=pointer]:
+        - /url: /API/docs/en-us/guides/translations
+    - listitem [ref=e271]:
+      - button "show or hide links under Well architected framework" [ref=e272] [cursor=pointer]:
+        - img [ref=e274]: 
+        - generic [ref=e276]: Well architected framework
+    - listitem [ref=e277]:
+      - button "show or hide links under Deprecated resources" [ref=e278] [cursor=pointer]:
+        - img [ref=e280]: 
+        - generic [ref=e282]: Deprecated resources
+    - listitem:
+      - link:
+        - /url: /API/docs/en-us/blog
+  - generic [ref=e283]:
+    - button "feedback" [ref=e284] [cursor=pointer]
+    - generic:
+      - navigation
+    - img "Document contents" [ref=e287] [cursor=pointer]: 
+    - article [ref=e288]:
+      - generic [ref=e289]:
+        - heading "How to use the Amazon Attribution API" [level=1] [ref=e290]
+        - paragraph [ref=e291]: "Once you have been granted permission to an advertiser's profile you can use the Amazon Attribution API to read the following resources associated with your advertiser:"
+        - list [ref=e292]:
+          - listitem [ref=e293]: Profiles
+          - listitem [ref=e294]: Advertisers
+          - listitem [ref=e295]: Publishers
+          - listitem [ref=e296]: Attribution tags
+          - listitem [ref=e297]: Reports
+        - heading "Profile resource " [level=2] [ref=e298]:
+          - text: Profile resource
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#profile-resource
+              - generic [ref=e299] [cursor=pointer]: 
+        - paragraph [ref=e300]:
+          - text: A profile represents an advertiser account in a particular market. Each time you make a call to an Amazon Attribution API endpoint you must pass a profile ID as the
+          - code [ref=e301]: Amazon-Advertising-Api-Scope
+          - text: header. Retrieve the list of profiles you can access by calling
+          - link "/v2/profiles" [ref=e302] [cursor=pointer]:
+            - /url: /API/docs/en-us/reference/2/profiles
+          - text: .
+        - heading "Advertisers resource " [level=2] [ref=e303]:
+          - text: Advertisers resource
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#advertisers-resource
+              - generic [ref=e304] [cursor=pointer]: 
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]: 
+            - text: Important
+          - generic [ref=e310]: The Amazon Attribution Advertisers resource will be deprecated in a future version of the API. It is currently supported on all profiles to ensure backward compatibility. Integrators supporting only ad console profiles should not use this resource.
+        - paragraph [ref=e311]:
+          - text: Get the
+          - link "Advertisers resource" [ref=e312] [cursor=pointer]:
+            - /url: /API/docs/en-us/amazon-attribution-prod-3p/#tag/Advertisers
+          - text: to retrieve a list of Amazon Attribution "advertisers” associated with a profile. Ad console profiles will only have a single advertiser. DSP-based profiles for vendor advertisers may have multiple Amazon Attribution advertisers, but sellers will always have only one. You may want to pass an
+          - code [ref=e313]: advertiserId
+          - text: as an optional parameter to one of the following endpoints.
+        - heading "Publishers resource " [level=2] [ref=e314]:
+          - text: Publishers resource
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#publishers-resource
+              - generic [ref=e315] [cursor=pointer]: 
+        - paragraph [ref=e316]:
+          - text: Get the
+          - link "Publishers resource" [ref=e317] [cursor=pointer]:
+            - /url: /API/docs/en-us/amazon-attribution-prod-3p/#tag/Publishers
+          - text: to retrieve a list of all supported publishers. Each item in the list includes publisher name, publisher ID, and whether or not the publisher’s tag includes macros, also known as dynamic parameters. The Publishers resource is identical for all advertisers. You will pass publisher IDs when calling Attribution tag-retrieval endpoints.
+        - paragraph [ref=e318]:
+          - text: If you do not see a publisher listed, contact the API support team at
+          - link "ads-api-support@amazon.com" [ref=e319] [cursor=pointer]:
+            - /url: /API/docs/en-us/ads-api-support@amazon.com
+          - text: .
+        - heading "Attribution tags resource " [level=2] [ref=e320]:
+          - text: Attribution tags resource
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#attribution-tags-resource
+              - generic [ref=e321] [cursor=pointer]: 
+        - paragraph [ref=e322]:
+          - text: Once you have your advertiser’s
+          - code [ref=e323]: profileId
+          - text: and the list of publishers, choose which
+          - link "Attribution tags resource" [ref=e324] [cursor=pointer]:
+            - /url: /API/docs/en-us/amazon-attribution-prod-3p/#tag/Attribution-Tags
+          - text: you will call to retrieve tags.
+        - paragraph [ref=e325]:
+          - text: Amazon Attribution offers tags that include macros for publishers such as Google Ads, Facebook, Microsoft Ads, and Pinterest. For these publishers, you will call
+          - code [ref=e326]: /attribution/tags/macroTag
+          - text: . These tags will only function on the intended publisher and will use campaign ID values provided by that publisher.
+        - paragraph [ref=e327]:
+          - text: For publishers that do not support macro tags, retrieve tags by calling
+          - code [ref=e328]: /attribution/tags/nonMacroTemplateTag
+          - text: . Non-macro tags require that you provide unique campaign ID values in the tag parameters.
+        - generic [ref=e331]:
+          - generic [ref=e332]:
+            - generic [ref=e333]: 
+            - text: Important
+          - generic [ref=e334]:
+            - text: Calling a tag-retrieval endpoint is a mandatory step required to enable measurement for each profile you plan to work with. Do not skip this step or else tags will not function.
+            - text: Amazon Attribution’s API tags are different than Amazon Attribution tags created in the Amazon Ads console. Do not modify tags created in the Amazon Ads console for use with the API and do not try to use API tags to add new tags to a campaign created in the Amazon Ads console.
+        - heading "Macro tags " [level=3] [ref=e335]:
+          - text: Macro tags
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#macro-tags
+              - generic [ref=e336] [cursor=pointer]: 
+        - paragraph [ref=e337]: Using a macro tag for a given publisher and advertiser, you can use that same tag across all of the advertiser's campaigns on that publisher. Macro tags allow the publisher to dynamically insert campaign information into the click-through URL when preparing the ad for display. Each tag contains publisher-specific macros that vary depending on the publisher.
+        - paragraph [ref=e338]: "For example, here’s a hypothetical macro tag for Google Ads returned from a call to the macroTag endpoint:"
+        - generic [ref=e339]:
+          - generic [ref=e340] [cursor=pointer]: 
+          - code [ref=e342]:
+            - generic [ref=e344]: "\"?maas=maas_adg_api_123456789_macro_1_99&ref_=aa_maas&tag=maas&aa_campaignid={campaignid}&aa_adgroupid={adgroupid}&aa_creativeid=ad-{creative}_{targetid}_dev-{device}_ext-{feeditemid}\""
+        - paragraph [ref=e345]: "Here is an example landing page URL that the campaign will drive to:"
+        - generic [ref=e346]:
+          - generic [ref=e347] [cursor=pointer]: 
+          - code [ref=e349]: https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00MNV8E0C
+        - paragraph [ref=e350]:
+          - text: After the tag is applied on the campaign in the publisher’s ad manager, when the publisher prepares each ad for display it will dynamically replace the
+          - code [ref=e351]: "{campaignid}"
+          - text: ","
+          - code [ref=e352]: "{adgroupid}"
+          - text: ","
+          - code [ref=e353]: "{creative}"
+          - text: ","
+          - code [ref=e354]: "{targetid}"
+          - text: ","
+          - code [ref=e355]: "{device}"
+          - text: ", and"
+          - code [ref=e356]: "{feeditemid}"
+          - text: macros with the actual campaign values.
+        - paragraph [ref=e357]: "In this example, the resulting click-through URL would be:"
+        - generic [ref=e358]:
+          - generic [ref=e359] [cursor=pointer]: 
+          - code [ref=e361]: https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00MNV8E0C?maas=maas_adg_api_123456789_macro_1_99&ref_=aa_maas&tag=maas&aa_campaignid=1234&aa_adgroupid=6789&aa_creativeid=ad-1357_kwd-123_dev-c_ext-2468
+        - heading "Non-macro tags " [level=3] [ref=e362]:
+          - text: Non-macro tags
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#non-macro-tags
+              - generic [ref=e363] [cursor=pointer]: 
+        - paragraph [ref=e364]:
+          - text: You can also use non-macro tags for publishers that do not support dynamic parameters to enable Amazon Attribution measurement on ads that drive to an Amazon Store or Product Detail page. To prepare your non-macro tags for implementation, you first retrieve the advertiser’s non-macro template tag by calling the nonMacroTemplateTag endpoint and then your system can fill in the template values for the
+          - code [ref=e365]: aa_campaignid
+          - text: ","
+          - code [ref=e366]: aa_adgroupid
+          - text: ", and"
+          - code [ref=e367]: aa_creativeid
+          - text: URL parameters each time it needs to create a new tag.
+        - paragraph [ref=e368]: Here’s an example non-macro tag template. It will not function unless you replace the template values.
+        - generic [ref=e369]:
+          - generic [ref=e370] [cursor=pointer]: 
+          - code [ref=e372]: "?maas=maas_adg_api_123456789_static_9_99&ref_=aa_maas&tag=maas&aa_campaignid={campaignId}&aa_adgroupid={adgroupId}&aa_creativeid={creativeId}"
+        - generic [ref=e373]:
+          - generic [ref=e375]:
+            - generic [ref=e376]:
+              - generic [ref=e377]: 
+              - text: Note
+            - generic [ref=e378]: When using non-macro tags, the same tag cannot be used across more than one landing page URL. If you need to change the landing page for a live tag, prepare a new tag using a unique creative ID and implement this new tag on the updated landing page.
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - generic [ref=e382]: 
+              - text: Important
+            - generic [ref=e383]:
+              - text: Values for
+              - code [ref=e384]: aa_campaignid
+              - text: ","
+              - code [ref=e385]: aa_adgroupid
+              - text: ", and"
+              - code [ref=e386]: aa_creativeid
+              - text: "parameters must be no longer than 255 characters (after all macros are expanded) and must not contain the following characters, even if they are URL-escaped: /, &, =, #, ?, +, ’, ”, %, $."
+              - code [ref=e387]: aa_campaignid
+              - text: values must be unique per account. Do not re-use the same campaign id among multiple advertisers or across multiple markets. If using macro tags, take care to organize your 3P campaigns so each Amazon account and market gets a separate campaign.
+        - heading "Attribution tag implementation " [level=2] [ref=e388]:
+          - text: Attribution tag implementation
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#attribution-tag-implementation
+              - generic [ref=e389] [cursor=pointer]: 
+        - paragraph [ref=e390]: Attribution tags can be implemented in any manner that results in a valid URL that is called when the ad is clicked, as long as the landing page is an Amazon Store or Product Detail Page. Here are some common ways to implement attribution tags.
+        - paragraph [ref=e391]: You may append an attribution tag to the end of a landing page URL and put the resulting URL into a publisher’s click-through URL field. Some publishers also allow for URL parameters to be kept separate from the landing page and will combine them dynamically.
+        - paragraph [ref=e392]: Amazon Attribution tags can be appended to a landing page URL used organically in a blog post or email, just as you would typically create a link to Amazon.
+        - paragraph [ref=e393]: If using a macro tag, it must be placed in a field that supports macro processing. This is publisher-specific, so check your publisher’s help documentation if you are having issues.
+        - paragraph [ref=e394]: For some publishers, you can implement attribution tags as click-trackers that fire upon each ad click. These tracking fields are different for each publisher. Remember that attribution tags will only work when the landing page is an Amazon Store or Product Detail Page.
+        - paragraph [ref=e395]: For Social campaigns, such as Facebook, you can implement your advertiser's attribution tags within the "URL parameters" tracking field.
+        - paragraph [ref=e396]:
+          - text: For Search campaigns, such as Google Ads and Microsoft Ads, implement your advertiser's attribution tags within the tracking template field, preceded by the
+          - code [ref=e397]: "{unescapedlpurl}"
+          - text: macro for Google or the
+          - code [ref=e398]: "{lpurl}"
+          - text: "macro for Microsoft. Here is a Google example:"
+        - generic [ref=e399]:
+          - generic [ref=e400] [cursor=pointer]: 
+          - code [ref=e402]: "{unescapedlpurl}?maas=maas_adg_api_123456789_macro_1_99&ref_=aa_maas&tag=maas&aa_campaignid={campaignid}&aa_adgroupid={adgroupid}&aa_creativeid=ad-{creative}_{targetid}_dev-{device}_ext-{feeditemid}"
+        - paragraph [ref=e403]: If no other tracking templates will interfere, you can implement the attribution tag at the campaign level. However, keep in mind that if multiple tracking templates are implemented at different levels of a campaign, only the tracking template at the lowest level fires.
+        - generic [ref=e406]:
+          - generic [ref=e407]:
+            - generic [ref=e408]: 
+            - text: Important
+          - generic [ref=e409]:
+            - text: Remove any pre-existing
+            - code [ref=e410]: ref_
+            - text: or
+            - code [ref=e411]: tag
+            - text: parameters from the click-through URL so they do not interfere with Amazon Attribution’s
+            - code [ref=e412]: ref_
+            - text: and
+            - code [ref=e413]: tag
+            - text: parameters. If two parameters with the same name are included in the URL, measurement will not be accurate.
+        - heading "Measurement " [level=2] [ref=e414]:
+          - text: Measurement
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#measurement
+              - generic [ref=e415] [cursor=pointer]: 
+        - paragraph [ref=e416]: When an Amazon Store or Product Detail Page URL including Amazon Attribution API tag parameters is clicked, this triggers Amazon Attribution to infer the structure of the campaign and measure click-attributed conversion events on Amazon. For a given profile, only links with Amazon Attribution tags from that profile are considered for conversion attribution and the last-clicked tag in the 14-day window gets full credit. Conversions will not be attributed to Amazon ads or any other links not tagged by the given profile.
+        - paragraph [ref=e417]:
+          - text: Amazon Attribution will automatically create an Amazon Attribution campaign, ad group, and creative using the values from the
+          - code [ref=e418]: aa_campaignid
+          - text: ","
+          - code [ref=e419]: aa_adgroupid
+          - text: ", and"
+          - code [ref=e420]: aa_creativeid
+          - text: parameters. After campaigns are created, promoted products will be automatically associated to the campaign to enable measurement of conversion metrics on these products. Clicks to Product Detail pages auto-associate that product and its variations to the campaign. Clicks to Amazon Stores pages auto-associate products listed on the Stores page to the campaign.
+        - paragraph [ref=e421]: Once campaigns, ad groups, and creatives are auto-created and products are auto-associated to the campaign, Amazon Attribution measures and reports clicks, conversions, and sales. Conversions on the associated products will show in reporting as “promoted” conversion metrics. “Total” and “brand halo” conversion metrics will reflect conversions on non-promoted products in the same brand.
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - generic [ref=e426]: 
+            - text: Note
+          - generic [ref=e427]: If your Store page uses dynamic widgets that select products to display in real-time, these products may not be associated to your campaign by Amazon Attribution. Examples include dynamic widgets “Best selling,” “Recommended for you,” “Featured Deals,” or product grids/lists powered by search keywords. To work around this limitation, add the ASINs you want to measure directly to your Store page.
+        - heading "Reports resource " [level=2] [ref=e428]:
+          - text: Reports resource
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#reports-resource
+              - generic [ref=e429] [cursor=pointer]: 
+        - paragraph [ref=e430]:
+          - text: Once attribution tags have been implemented and shoppers have clicked your links, call the
+          - link "report endpoint" [ref=e431] [cursor=pointer]:
+            - /url: /API/docs/en-us/amazon-attribution-prod-3p/#tag/Reports/operation/getAttributionTagsByCampaign
+          - text: to retrieve reporting. Clicks may take up to 24 hours to appear, and conversions may take up to 48 hours.
+        - paragraph [ref=e432]:
+          - text: "Two types of reports are available: Performance and Products. You can access each report type by entering the optional"
+          - code [ref=e433]: reportType
+          - text: request body property with a value of PERFORMANCE (default) or PRODUCTS. Each report type differs in terms of its aggregation level, dimensions, and metrics. For the performance report, you may choose the aggregation level by passing the
+          - code [ref=e434]: groupBy
+          - text: request body property with a value of CAMPAIGN, ADGROUP, or CREATIVE (default). The products report is always aggregated at ad group level and is limited to the top 100 products per campaign, as ranked by sales, purchases, and DPVs.
+        - paragraph [ref=e435]:
+          - text: If you don’t indicate which metrics you want the report to include, the response will include all available metrics (except
+          - code [ref=e436]: brb_bonus_amount
+          - text: ). For more efficient reporting you can include a list of desired metrics in your request body.
+        - generic [ref=e439]:
+          - generic [ref=e440]:
+            - img "Tip" [ref=e441]: 
+            - text: Brand Referal Bonus metric
+          - generic [ref=e442]:
+            - text: For advertisers enrolled in the
+            - link "Brand Referral Bonus " [ref=e443] [cursor=pointer]:
+              - /url: https://sellercentral.amazon.com/gp/help/external/L9HPJ34VBFP76HX
+              - text: Brand Referral Bonus
+              - generic [ref=e444]: 
+            - text: (BRB) program, you can request the
+            - code [ref=e445]: brb_bonus_amount
+            - text: metric in a performance report, provided you explicitly ask for the metric and pass a
+            - code [ref=e446]: groupBy
+            - text: value of CAMPAIGN or ADGROUP. Requesting this metric for advertisers not enrolled in BRB does not result in an error – the response will simply not include the metric.
+        - paragraph [ref=e447]:
+          - text: View the available dimensions and metrics for each report type by visiting the
+          - link "ReportRequestBody documentation" [ref=e448] [cursor=pointer]:
+            - /url: /API/docs/en-us/amazon-attribution-prod-3p/#tag/Reports/operation/getAttributionTagsByCampaign
+          - text: .
+        - table [ref=e449]:
+          - rowgroup [ref=e450]:
+            - row "Report type Included dimensions Aggregation level Metrics Available reporting dates" [ref=e451]:
+              - columnheader "Report type" [ref=e452]
+              - columnheader "Included dimensions" [ref=e453]
+              - columnheader "Aggregation level" [ref=e454]
+              - columnheader "Metrics" [ref=e455]
+              - columnheader "Available reporting dates" [ref=e456]
+          - rowgroup [ref=e457]:
+            - 'row "Performance aa_campaignid, aa_adgroupid, aa_creativeid, publisher You can choose to aggregate at the CAMPAIGN, ADGROUP, or CREATIVE level (default: CREATIVE) Click-throughs and all Promoted and Total conversion metrics. See Report endpoint for a complete list. Last 13 months" [ref=e458]':
+              - cell "Performance" [ref=e459]
+              - cell "aa_campaignid, aa_adgroupid, aa_creativeid, publisher" [ref=e460]:
+                - code [ref=e461]: aa_campaignid
+                - text: ","
+                - code [ref=e462]: aa_adgroupid
+                - text: ","
+                - code [ref=e463]: aa_creativeid
+                - text: ","
+                - code [ref=e464]: publisher
+              - 'cell "You can choose to aggregate at the CAMPAIGN, ADGROUP, or CREATIVE level (default: CREATIVE)" [ref=e465]'
+              - cell "Click-throughs and all Promoted and Total conversion metrics. See Report endpoint for a complete list." [ref=e466]:
+                - text: Click-throughs and all Promoted and Total conversion metrics. See
+                - link "Report endpoint" [ref=e467] [cursor=pointer]:
+                  - /url: /API/docs/en-us/amazon-attribution-prod-3p/#/Reports/getAttributionTagsByCampaign
+                - text: for a complete list.
+              - cell "Last 13 months" [ref=e468]
+            - row "Products aa_campaignid, aa_adgroupid, publisher, productName, productGroup, productCategory, productSubcategory, brandName, productAsin, productConversionType Always aggregated at ad group level Promoted and Brand halo conversion metrics, Brand Referal Bonus. No click-throughs. See Report endpoint for a complete list. Last 90 days" [ref=e469]:
+              - cell "Products" [ref=e470]
+              - cell "aa_campaignid, aa_adgroupid, publisher, productName, productGroup, productCategory, productSubcategory, brandName, productAsin, productConversionType" [ref=e471]:
+                - code [ref=e472]: aa_campaignid
+                - text: ","
+                - code [ref=e473]: aa_adgroupid
+                - text: ","
+                - code [ref=e474]: publisher
+                - text: ","
+                - code [ref=e475]: productName
+                - text: ","
+                - code [ref=e476]: productGroup
+                - text: ","
+                - code [ref=e477]: productCategory
+                - text: ","
+                - code [ref=e478]: productSubcategory
+                - text: ","
+                - code [ref=e479]: brandName
+                - text: ","
+                - code [ref=e480]: productAsin
+                - text: ","
+                - code [ref=e481]: productConversionType
+              - cell "Always aggregated at ad group level" [ref=e482]
+              - cell "Promoted and Brand halo conversion metrics, Brand Referal Bonus. No click-throughs. See Report endpoint for a complete list." [ref=e483]:
+                - text: Promoted and Brand halo conversion metrics, Brand Referal Bonus. No click-throughs. See
+                - link "Report endpoint" [ref=e484] [cursor=pointer]:
+                  - /url: /API/docs/en-us/amazon-attribution-prod-3p/#tag/Reports/operation/getAttributionTagsByCampaign
+                - text: for a complete list.
+              - cell "Last 90 days" [ref=e485]
+        - paragraph [ref=e486]: Amazon updates Amazon Attribution reporting at least once per day and performs historical restatements every 1, 7, and 28 days to ensure reporting is updated with the most recent conversions and takes into account returns or refunds. We recommend that you retrieve the last 30 days of reporting each day.
+        - generic [ref=e489]:
+          - generic [ref=e490]:
+            - generic [ref=e491]: 
+            - text: Note
+          - generic [ref=e492]:
+            - text: To protect shopper privacy, Amazon Attribution will mask data for any reporting row representing a tag or group of tags with < 10 clicks over its lifetime. For example, reporting aggregated at the ad group level will show all data for ad groups with 10+ clicks, even if some of the tags in the ad group have < 10 clicks. Until the click threshold has been surpassed, masked rows will show metric values as zero. Campaigns with very small budgets or shown to a very small audience may take some time to surpass this threshold.
+            - text: To display reporting at campaign or ad group level, you should request performance reports at these specific aggregation levels, rather than aggregating the data yourself, to ensure your reporting includes all available data and matches the Amazon Ads console.
+        - heading "Next steps " [level=2] [ref=e493]:
+          - text: Next steps
+          - generic:
+            - link "":
+              - /url: /API/docs/en-us/guides/amazon-attribution/how-to#next-steps
+              - generic [ref=e494] [cursor=pointer]: 
+        - paragraph [ref=e495]:
+          - text: If you encounter problems using the Amazon Attribution API, the
+          - link "troubleshooting guide" [ref=e496] [cursor=pointer]:
+            - /url: /API/docs/en-us/guides/amazon-attribution/troubleshooting
+          - text: can help you diagnose and correct issues.
+    - generic [ref=e498]:
+      - paragraph [ref=e499]: Was this page helpful?
+      - generic [ref=e500]:
+        - button "Yes" [ref=e501] [cursor=pointer]
+        - button "No" [ref=e502] [cursor=pointer]
+    - generic [ref=e504]:
+      - generic [ref=e505]:
+        - link "GitHub logo GitHub" [ref=e506] [cursor=pointer]:
+          - /url: https://github.com/amzn/ads-advanced-tools-docs
+          - img "GitHub logo" [ref=e507]
+          - generic [ref=e508]: GitHub
+        - link "RSS logo RSS release notes" [ref=e509] [cursor=pointer]:
+          - /url: https://d3a0d0y2hgofx6.cloudfront.net/rss/en-us/ad-api-rss.xml
+          - img "RSS logo" [ref=e510]
+          - generic [ref=e511]: RSS release notes
+      - link "Amazon Ads logo" [ref=e513] [cursor=pointer]:
+        - /url: /API/docs
+        - img "Amazon Ads logo" [ref=e514]
+      - list [ref=e515]:
+        - listitem [ref=e516]: © 2023 Amazon.com, Inc. or its affiliates.
+        - listitem [ref=e517]:
+          - link "Conditions of Use" [ref=e518] [cursor=pointer]:
+            - /url: https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088
+        - listitem [ref=e519]:
+          - link "Privacy Notice" [ref=e520] [cursor=pointer]:
+            - /url: https://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496
+        - listitem [ref=e521]:
+          - link "License Agreement" [ref=e522] [cursor=pointer]:
+            - /url: /API/docs/license-agreement
+        - listitem [ref=e523]:
+          - link "Data Policies" [ref=e524] [cursor=pointer]:
+            - /url: /API/docs/policy/en_US

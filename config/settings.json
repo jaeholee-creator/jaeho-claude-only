@@ -14,17 +14,21 @@
     ],
     "mode": "autonomous"
   },
+  "model": "sonnet",
   "enabledMcpjsonServers": [
+    "antv-chart",
+    "bigquery",
+    "bigquery-member",
     "github",
     "playwright",
     "filesystem",
     "sequential-thinking",
     "memory",
-    "notion-epic-tracker"
+    "notion-epic-tracker",
+    "airflow"
   ],
   "enabledPlugins": {
     "pyright-lsp@claude-plugins-official": true
   },
-  "skipDangerousModePermissionPrompt": true,
-  "model": "sonnet"
+  "skipDangerousModePermissionPrompt": true
 }

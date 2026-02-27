@@ -63,7 +63,7 @@ fi
 
 # Create directories
 log "Creating directories..."
-mkdir -p ~/.claude/{agents,skills}
+mkdir -p ~/.claude/{agents,skills,commands}
 mkdir -p ~/.config/claude-mcp/notion-epic-tracker
 
 # Copy agents
@@ -77,6 +77,12 @@ log "Installing skills..."
 cp -r config/skills/* ~/.claude/skills/
 SKILL_COUNT=$(find ~/.claude/skills -name "SKILL.md" 2>/dev/null | wc -l)
 log "Installed $SKILL_COUNT skills"
+
+# Copy commands
+log "Installing commands..."
+cp -r config/commands/* ~/.claude/commands/
+COMMAND_COUNT=$(ls -1 ~/.claude/commands/*.md 2>/dev/null | wc -l)
+log "Installed $COMMAND_COUNT commands"
 
 # Copy CLAUDE.md
 log "Installing CLAUDE.md..."
