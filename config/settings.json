@@ -1,4 +1,7 @@
 {
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
   "permissions": {
     "allow": [
       "Bash(node --version:*)",
@@ -17,18 +20,25 @@
   "model": "sonnet",
   "enabledMcpjsonServers": [
     "antv-chart",
-    "bigquery",
-    "bigquery-member",
+    "bq-ax",
+    "bq-member",
     "github",
-    "playwright",
-    "filesystem",
-    "sequential-thinking",
     "memory",
-    "notion-epic-tracker",
-    "airflow"
+    "notion-epic-tracker"
   ],
   "enabledPlugins": {
-    "pyright-lsp@claude-plugins-official": true
+    "pyright-lsp@claude-plugins-official": true,
+    "bkit@bkit-marketplace": true,
+    "oh-my-claudecode@omc": true
   },
+  "extraKnownMarketplaces": {
+    "omc": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/Yeachan-Heo/oh-my-claudecode.git"
+      }
+    }
+  },
+  "effortLevel": "medium",
   "skipDangerousModePermissionPrompt": true
 }

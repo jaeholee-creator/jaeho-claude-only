@@ -31,3 +31,6 @@ Thumbs.db
 # Backups
 *.bak
 *.backup
+
+# OMC runtime state
+.omc/

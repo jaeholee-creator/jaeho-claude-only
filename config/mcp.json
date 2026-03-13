@@ -4,77 +4,42 @@
       "command": "npx",
       "args": ["-y", "@antv/mcp-server-chart"]
     },
-    "bigquery": {
+    "bq-ax": {
       "command": "uvx",
       "args": [
         "mcp-server-bigquery",
-        "--project", "ax-test-jaeho",
+        "--project", "YOUR_AX_PROJECT_ID",
         "--location", "US"
       ],
       "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "${HOME}/.config/gcloud/ax-test-jaeho-sa.json"
+        "GOOGLE_APPLICATION_CREDENTIALS": "${HOME}/.config/gcloud/ax-sa.json"
       }
     },
-    "bigquery-member": {
+    "bq-member": {
       "command": "uvx",
       "args": [
         "mcp-server-bigquery",
-        "--project", "member-378109",
+        "--project", "YOUR_MEMBER_PROJECT_ID",
         "--location", "US"
       ],
       "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "${HOME}/Downloads/target-378109-7f1aa3e0dc9a.json"
+        "GOOGLE_APPLICATION_CREDENTIALS": "${HOME}/.config/gcloud/member-sa.json"
       }
-    },
-    "airflow": {
-      "command": "uvx",
-      "args": [
-        "astro-airflow-mcp",
-        "--transport", "stdio",
-        "--airflow-url", "http://129.146.108.143:8080/airflow",
-        "--username", "admin",
-        "--password", "admin"
-      ]
     },
     "github": {
       "command": "npx",
-      "args": [
-        "@modelcontextprotocol/server-github"
-      ],
+      "args": ["@modelcontextprotocol/server-github"],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
       }
     },
-    "playwright": {
-      "command": "npx",
-      "args": [
-        "@playwright/mcp@latest",
-        "--headless"
-      ]
-    },
-    "filesystem": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "${HOME}"]
-    },
-    "sequential-thinking": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-sequential-thinking"
-      ]
-    },
     "memory": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-memory"
-      ]
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
     "notion-epic-tracker": {
       "command": "${HOME}/.config/claude-mcp/notion-epic-tracker/.venv/bin/python",
-      "args": [
-        "${HOME}/.config/claude-mcp/notion-epic-tracker/server.py"
-      ],
+      "args": ["${HOME}/.config/claude-mcp/notion-epic-tracker/server.py"],
       "env": {
         "NOTION_TOKEN": "${NOTION_TOKEN}"
       }
@@ -82,10 +47,7 @@
     "slack": {
       "type": "stdio",
       "command": "npx",
-      "args": [
-        "-y",
-        "@anthropic/mcp-server-slack"
-      ],
+      "args": ["-y", "@anthropic/mcp-server-slack"],
       "env": {
         "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}",
         "SLACK_TEAM_ID": "${SLACK_TEAM_ID}"
